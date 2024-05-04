@@ -1,0 +1,154 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: rgb(3, 1, 1);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#skills {
+    background-color: #ffffff;
+}
+
+.blc_horizontal {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: black;
+
+}
+
+.bloco {
+    width: 30%;
+    /* Ajuste conforme necessário */
+    margin: 10px;
+    padding: 20px;
+    background-color: #c37cf3;
+    border-radius: 8%;
+    /* Cor de fundo */
+    /* Outras propriedades de estilo */
+}
+
+#sobre-mim {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    line-height: 1.5;
+}
+
+.img_bloco {
+    width: 23%;
+}
+
+.center {
+    text-align: center;
+    padding: 2em 0;
+
+}
+
+.center h2 {
+    font-size: 15px;
+}
+
+.li-habilidades {
+    list-style: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#avatar {
+    width: 12%;
+}
+
+/* header */
+nav {
+    background-color: #ffffff;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 1%;
+    float: right;
+    font-size: 21px
+}
+
+nav ul img {
+    width: 65px;
+    margin-left: 25px;
+}
+
+.projects {
+    padding: 2em 0;
+}
+
+.project {
+    margin-bottom: 1em;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project-info {
+    background-color: #5c3aa3;
+    padding: 1em;
+}
+
+.project-info h3 {
+    margin: 0;
+}
+
+.project-info p {
+    margin: 0;
+}
+
+.project-info a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos da seção de contato */
+.contact {
+    background-color: #5c3aa3;
+    padding: 1em 0;
+    border-radius: 25px;
+    width: 55%;
+}
+
+.contact form {
+    max-width: 300px;
+    margin: auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.contact input[type="submit"] {
+    background-color: #7a57d1;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+}
