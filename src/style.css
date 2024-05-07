@@ -7,6 +7,34 @@ body {
     color: rgb(3, 1, 1);
 }
 
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icon-contato{
+    width: 4%;
+    float: right;
+    margin-right: 25px;
+}
+
 .container {
     width: 80%;
     margin: auto;
