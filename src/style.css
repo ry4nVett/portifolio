@@ -46,7 +46,7 @@ body {
 
 .blc_horizontal {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     color: black;
 
@@ -160,6 +160,8 @@ nav ul img {
     padding: 1em 0;
     border-radius: 25px;
     width: 55%;
+    height: 55%;
+    padding-top: 5%;
 }
 
 .contact form {
