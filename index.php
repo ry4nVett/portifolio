@@ -42,7 +42,7 @@
         <img src="src/img/cerebro.png" class="img_bloco">
         <ul class="li-habilidades">
           <h2>Soft Skills</h2>
-          <li>Comunicação Acertiva</li>
+          <li>Comunicação Assertiva </li>
           <li>Trabalho em Equipe</li>
           <li>Adaptabilidade</li>
           <li>Criatividade</li>
