@@ -25,7 +25,7 @@
 
   <div class="center">
     <h1>Desenvolvedor Full Stack</h1>
-    <img src="src/img/avatar.png" alt="Ilustração de Desenvolvedor" id="avatar">
+    <img src="src/img/avatar.png" alt="image" id="avatar">
     <div id="sobre-mim">
       <h1>Sobre Mim</h1>
       <h2>Olá, meu nome é Ryan e sou um desenvolvedor full stack apaixonado por programação. Minha jornada rumo à
@@ -38,7 +38,7 @@
     <h2 class="center">Habilidades</h2>
     <div class="blc_horizontal">
       <div class="bloco" id="designer">
-        <img src="src/img/cerebro.png" class="img_bloco" alt="image not found">        
+        <img src="src/img/cerebro.png" class="img_bloco" alt="image">        
         <ul class="li-habilidades">
           <h2>Soft Skills</h2>
           <li>Comunicação Assertiva </li>
@@ -48,7 +48,7 @@
         </ul>
       </div>
       <div class="bloco" id="frontend">
-        <img src="src/img/habilidades.png" class="img_bloco" alt="image not found">
+        <img src="src/img/habilidades.png" class="img_bloco" alt="image">
         <ul class="li-habilidades">
 
           <h2>Hard Skills</h2>
@@ -74,8 +74,13 @@
   </div><br>
   <div class="footer">
     <div class="rodape">
-      <a href="https://www.linkedin.com/in/ryan-vencatto-891956248/"><img src="src/img/linkedin.png" class="icon-contato" alt="image not found"></a>
-      <a href="https://github.com/ry4nVett"><img src="src/img/github.png" class="icon-contato" alt="image not found"></a>
+      <a href="https://www.linkedin.com/in/ryan-vencatto-891956248/">
+        <img src="src/img/linkedin.png" class="icon-contato" alt="image">
+      </a>
+      
+      <a href="https://github.com/ry4nVett">
+        <img src="src/img/github.png" class="icon-contato" alt="image">
+      </a>
         <p>&copy; <span id="year"></span> Ryan Kauê Vencatto. Todos os direitos reservados.</p>
         <p>Desenvolvido com paixão por Ryan Kauê Vencatto.</p>
                 
