@@ -14,9 +14,13 @@
   <nav>
     <ul>
       <img src="src/img/programa.png" id="logo">
-      <li><a href="#skills">Habilidades</a></li>
-      <!-- <li><a href="#projects">Projetos</a></li> -->
-      <li><a href="#contact">Contato</a></li>
+      <li>
+        <a href="#skills">Habilidades</a>
+      </li>
+      
+      <li>
+        <a href="#contact">Contato</a>
+      </li>
     </ul>
   </nav>
 
@@ -53,22 +57,11 @@
           <li>CSS</li>
           <li>PHP</li>
           <li>Banco de Dados</li>
+
         </ul>
       </div>
-
     </div>
   </div>
-  <!-- <div id="projects" class="projects container">
-    <h2>Projetos</h2>
-    <div class="project">
-      <img src="project-thumbnail.png" alt="Miniatura do Projeto">
-        <div class="project-info">
-            <h3>Nome do Projeto</h3>
-            <p>Descrição do projeto...</p>
-            <a href="#">Ver Projeto</a> | <a href="#">Código</a>
-        </div>
-    </div>
-</div> -->
 
 <h2 class="center">Fale Comigo</h2>
   <div id="contact" class="contact container">
