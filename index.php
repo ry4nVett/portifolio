@@ -17,7 +17,6 @@
       <li>
         <a href="#skills">Habilidades</a>
       </li>
-      
       <li>
         <a href="#contact">Contato</a>
       </li>
@@ -39,7 +38,7 @@
     <h2 class="center">Habilidades</h2>
     <div class="blc_horizontal">
       <div class="bloco" id="designer">
-        <img src="src/img/cerebro.png" class="img_bloco">
+        <img src="src/img/cerebro.png" class="img_bloco" alt="image not found">        
         <ul class="li-habilidades">
           <h2>Soft Skills</h2>
           <li>Comunicação Assertiva </li>
@@ -49,7 +48,7 @@
         </ul>
       </div>
       <div class="bloco" id="frontend">
-        <img src="src/img/habilidades.png" class="img_bloco">
+        <img src="src/img/habilidades.png" class="img_bloco" alt="image not found">
         <ul class="li-habilidades">
 
           <h2>Hard Skills</h2>
@@ -75,8 +74,8 @@
   </div><br>
   <div class="footer">
     <div class="rodape">
-      <a href="https://www.linkedin.com/in/ryan-vencatto-891956248/"><img src="src/img/linkedin.png" class="icon-contato"></a>
-      <a href="https://github.com/ry4nVett"><img src="src/img/github.png" class="icon-contato"></a>
+      <a href="https://www.linkedin.com/in/ryan-vencatto-891956248/"><img src="src/img/linkedin.png" class="icon-contato" alt="image not found"></a>
+      <a href="https://github.com/ry4nVett"><img src="src/img/github.png" class="icon-contato" alt="image not found"></a>
         <p>&copy; <span id="year"></span> Ryan Kauê Vencatto. Todos os direitos reservados.</p>
         <p>Desenvolvido com paixão por Ryan Kauê Vencatto.</p>
                 
