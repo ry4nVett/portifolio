@@ -13,7 +13,8 @@
 
   <nav>
     <ul>
-      <img src="src/img/programa.png" id="logo">
+      <img src="src/img/programa.png" id="logo" alt="Logo programa">
+
       <li>
         <a href="#skills">Habilidades</a>
       </li>
@@ -21,6 +22,7 @@
         <a href="#contact">Contato</a>
       </li>
     </ul>
+
   </nav>
 
   <div class="center">
@@ -38,7 +40,7 @@
     <h2 class="center">Habilidades</h2>
     <div class="blc_horizontal">
       <div class="bloco" id="designer">
-        <img src="src/img/cerebro.png" class="img_bloco" alt="Cerebro-Habilidades">        
+        <img src="src/img/cerebro.png" class="img_bloco" alt="Cerebro-Habilidades">
         <ul class="li-habilidades">
           <h2>Soft Skills</h2>
           <li>Comunicação Assertiva </li>
