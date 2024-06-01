@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="src/style.css">
-    <script src="src/script.js"></script>
+    
   </head>
   <body>
-
       <nav>
         <ul>
           <img src="src/img/programa.png" id="logo" alt="Logo programa">
@@ -64,12 +63,12 @@
 
     <h2 class="center">Fale Comigo</h2>
       <div id="contact" class="contact container">
-
-        <form action="https://formspree.io/f/xwkgywla" method="POST">
-          <input type="text" name="name" placeholder="Seu nome">
-          <input type="email" name="email" placeholder="Seu email">
-          <textarea cols="30" rows="10" name="message" placeholder="Sua mensagem"></textarea>
+        <form  action="https://formspree.io/f/xwkgywla" method="POST" id="contactForm">
+          <input type="text" name="name" placeholder="Seu nome" id="name">
+          <input type="email" name="email" placeholder="Seu email" id="email">
+          <textarea cols="30" rows="10" name="message" placeholder="Sua mensagem" id="message"></textarea>
           <button type="submit">Enviar</button>
+          <p class="error" id="error">Por favor, preencha todos os campos.</p>
         </form>
       </div><br>
         <div class="footer">
@@ -86,6 +85,7 @@
                       
           </div>
       </div>
+      <script src="src/script.js"></script>
   </body>
 </html>
 <!-- // Useful comment -->

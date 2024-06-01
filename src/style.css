@@ -182,3 +182,8 @@ nav ul img {
     border: none;
     padding: 0.5em 1em;
 }
+
+.error {
+    color: red;
+    display: none;
+}
