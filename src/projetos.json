@@ -1,0 +1,13 @@
+[
+    {
+        "nome": "Work-Tattoo",
+        "imagem": "src/img/work-tattoo.png",
+        "url": "http://localhost/TCC/"
+    },
+
+    {
+        "nome":"Portifolio",
+        "imagem":"src/img/avatar.png",
+        "url": "http://localhost/Portifolio/"
+    }
+]

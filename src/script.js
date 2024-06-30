@@ -9,8 +9,9 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     if (!name || !email || !message) {
       alert("Preencha todos os campos")
         error.style.display = 'block';
-        event.preventDefault(); // Impede o envio do formulário
+        event.preventDefault(); 
     } else {
         error.style.display = 'none';
     }
+
 });
