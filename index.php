@@ -6,7 +6,32 @@
     <title>Portfólio</title>
     <link rel="stylesheet" href="src/style.css">
     <script src="json.js"></script>
+    <script>
+<?php
+  require 'FormValidator.php';
+
+  $errors = [];
+  if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+      $name = $_POST['name'] ?? '';
+      $email = $_POST['email'] ?? '';
+      $message = $_POST['message'] ?? '';
+  
+      $validator = new FormValidator($name, $email, $message);
+  
+      if ($validator->validate()) {
+          // O formulário é válido, você pode processar os dados aqui
+          echo 'Formulário enviado com sucesso!';
+      } else {
+          // O formulário não é válido, exibir os erros
+          $errors = $validator->getErrors();
+      }
+  }
+
+?>
+>
+    </script>
   </head>
+
   <body>
       <nav>
         <ul>
@@ -61,10 +86,22 @@
 
       <h2 class="center">Fale Comigo</h2>
       <div id="contact" class="contact container">
-        <form action="https://formspree.io/f/xwkgywla" method="POST" id="contactForm">
-          <input type="text" name="name" placeholder="Seu nome" id="name">
-          <input type="email" name="email" placeholder="Seu email" id="email">
-          <textarea cols="30" rows="10" name="message" placeholder="Sua mensagem" id="message"></textarea>
+      <form method="POST" id="contactForm">
+          <input type="text" name="name" placeholder="Seu nome" id="name" value="<?php echo htmlspecialchars($name ?? ''); ?>">
+          <?php if (isset($errors['name'])): ?>
+              <p class="error"><?php echo htmlspecialchars($errors['name']); ?></p>
+          <?php endif; ?>
+
+          <input type="email" name="email" placeholder="Seu email" id="email" value="<?php echo htmlspecialchars($email ?? ''); ?>">
+          <?php if (isset($errors['email'])): ?>
+              <p class="error"><?php echo htmlspecialchars($errors['email']); ?></p>
+          <?php endif; ?>
+
+          <textarea cols="30" rows="10" name="message" placeholder="Sua mensagem" id="message"><?php echo htmlspecialchars($message ?? ''); ?></textarea>
+          <?php if (isset($errors['message'])): ?>
+              <p class="error"><?php echo htmlspecialchars($errors['message']); ?></p>
+          <?php endif; ?>
+
           <button type="submit">Enviar</button>
           <p class="error" id="error">Por favor, preencha todos os campos.</p>
         </form>
